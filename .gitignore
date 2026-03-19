@@ -1,0 +1,15 @@
+Secrets
+.env
+
+# Data (too large for git -- use DVC or cloud storage)
+data/raw/
+data/embeddings/
+data/faiss_index/
+models/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+venv/
